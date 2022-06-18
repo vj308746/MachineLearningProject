@@ -16,12 +16,13 @@ def get_requirements_list()->List[str]:
 
 
 
-setup()
-name ="PROJECT-NAME",
+setup(
+name ="PROJECT_NAME",
 version="VERSION"
 author="AUTHOR"
 packages="PACKAGES"
-install_requires=get_requirements_list()    
+install_requires=get_requirements_list()  
+)  
 
 
 if __name__=="__main__":

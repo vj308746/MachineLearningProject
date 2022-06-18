@@ -51,3 +51,27 @@ heroku emial id - vj308746@gmail.comheroku
 API KEY  - 1448730d-7970-46c3-a05f-027397c688de
 application name -  ml-project-regression
 
+BUILD docker image
+
+```
+docker build -t <image_name>:<tagname>
+```
+>note - image name for docker must be in lowercase
+
+to list docker image
+```
+docker image
+```
+Run docker image
+```
+docker run -p 5000:5000 -e PORT=5000 (imageid)
+```
+
+to check the running container in docker
+```
+docker ps
+```
+To stop docker container
+```
+docker stop (container id)
+```
